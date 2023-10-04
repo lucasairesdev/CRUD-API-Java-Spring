@@ -30,5 +30,3 @@ utilizando dos metodos de segurança com os Dto's e utilizando boas praticas do 
 - Rode o comando `docker-compose up -d`
 - Utilize o insomnia ou postman para fazer os testes
 
-## Documentaçao
-Documentaçao do projeto foi gerada pelo Swagger-ui Então depois de roda a aplicação acesse http://localhost:8080/swagger-ui/ e o banco de dados estará acessivel na porta http://localhost:5430
