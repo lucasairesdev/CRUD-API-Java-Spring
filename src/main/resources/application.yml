@@ -1,0 +1,23 @@
+# Porta do Servidor
+server:
+  port: 8080
+
+# Caminho banco de dados
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5430/usuarios}
+# Usuario de conexão do banco de dados
+    username: postgres
+# Senha de conexão banco de dados
+    password: 123456
+# Nome do driver
+    driver-class-name: org.postgresql.Driver
+
+# Configuração para o hibernate gerar atualizações no schema.
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: POSTGRESQL
+    show-sql: true
+  database:
+    driverClassName: org.postgresql.Driver
